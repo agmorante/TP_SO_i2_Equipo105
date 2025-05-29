@@ -2,3 +2,7 @@ Valdez, Guadalupe
 Ramundo, Lucia
 Morante Caputo, Agustina
 
+a-¿Cómo actualizo mi repositorio, al estado que esté el repo que hice FORK?
+Con un git fetch y git merge
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+Si
