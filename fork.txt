@@ -1,1 +1,9 @@
+
 Nombre Apellido: Lucia Ramundo - IP: 192.168.56.1 - Hora: 11:52
+>>>>>>> ccd3e57061b299c6eef6ba91bc9c40420cdd02c1
+
+Nombre: Guadalupe Valdez
+IP: 192.168.56.1
+Fecha y hora: Thu May 29 11:56:14	2025
+
+
