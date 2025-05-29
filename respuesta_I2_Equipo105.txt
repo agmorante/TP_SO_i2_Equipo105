@@ -2,7 +2,15 @@ Valdez, Guadalupe
 Ramundo, Lucia
 Morante Caputo, Agustina
 
-a-¿Cómo actualizo mi repositorio, al estado que esté el repo que hice FORK?
+a- ¿Cómo actualizo mi repositorio, al estado que esté el repo que hice FORK?
 Con un git fetch y git merge
-b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+b- ¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
 No
+
+c- ¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+GAMMA no puede actualizar su FORK al estado del de ALFA sin que antes ALFA intente hacer un pull request y el repositorio main sea actualizado.
+
+d- ¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+No, los datos no se pierden ya que los cambios hechos en el fork se fusionan con el main.
+
