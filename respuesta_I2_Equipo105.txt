@@ -14,3 +14,93 @@ d- ¿Los datos que tenía en mi repositorio , editados por mi, se pierden si qui
 el fork?
 No, los datos no se pierden ya que los cambios hechos en el fork se fusionan con el main.
 
+e- Comandos usados para la resolución del tp:
+
+Morante Agustina (BETA)
+
+- git clone "link del repo original"
+- touch fork.txt (creo archivo)
+- git add . (guardo los cmabios)
+- git commit -m "Archivo fork.txt creado" 
+- git push (pusheo los cambios)
+ 
+Ramundo Lucia (GAMMA)
+
+- git clone "link del repo del fork" 
+- cd/TP_SO_i2_Equipo105 (voy a la carpeta del tp)
+- ls (listo los archivos para poder editar)
+- ipconfig (para saber mi ip)
+- date (fecha y hora)
+- nano fork.txt (para editar el archivo y agregar nombre,fecha,ip)
+- git add . (guardo los cambios)
+- git commit -m "GAMMA modifica fork.txt"
+- git push
+- y solicito un pull request, para que el dueño del repo (BETA) autorice mis cambios
+- git remote add upstream "link del repo original"
+- git remote -v
+- git fetch upstream (actualizo los cambios)
+- git merge upstream/main (para descargar los cambios en forma local)
+
+Guadalupe Valdez (ALFA)
+
+- git clone "link del repo del fork"
+- cd/TP_SO_i2_Equipo105 (voy a la carpeta del tp)
+- ls (listo los archivos para poder editar)
+- ipconfig (para saber mi ip)
+- date (fecha y hora)
+- nano fork.txt (para editar el archivo y agregar nombre,fecha,ip)
+- git add . (guardo los cambios)
+- git commit -m "ALFA modifica archivo"
+- git push
+- y solicito un pull request, para que el dueño del repo (BETA) autorice mis cambios
+- git remote add upstream "link del repo original"
+- git remote -v
+- git fetch upstream (actualizo los cambios)
+- git merge upstream/main (para descargar los cambios en forma local)
+
+Morante Agustina (BETA)
+- git merge (para actualizar el repo en forma local)
+- touch NuevoDato.txt
+- git add .
+- git commit -m "BETA añade archivo NuevoDato.txt"
+- git push
+
+Ramundo Lucia (GAMMA) y Guadalupe Valdez (ALFA)
+- git fetch upstream
+- git merge upstream/main
+
+Morante Agustina (BETA)
+- nano respuesta_I2_Equipo105.txt
+- git add . 
+- git commit -m "BETA crea archivo respuesta_I2_Equipo105"
+- git push
+
+Ramundo Lucia (GAMMA)
+- git fetch upstream
+- git merge upstream/main
+- ls
+- nano respuesta_I2_Equipo105.txt
+- git add .
+- git commit -m "Update respuesta_I2_Equipo105"
+- git push
+- hago pull request a BETA
+
+Morante Agustina (BETA)
+- git merge 
+- ls
+- nano respuesta_I2_Equipo105.txt
+- git add .
+- git commit -m "BETA sube las respuestas c y d al archivo respuestas"
+- git push
+
+Guadalupe Valdez (ALFA)
+- git fetch upstream
+- git merge upstream/main
+- ls
+- nano respuesta_I2_Equipo105.txt
+- git add .
+- git commit -m "ALFA sube respuesta e"
+- git push
+- solicito un pull request
+ 
+
